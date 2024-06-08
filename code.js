@@ -12,6 +12,6 @@
 // }
 // hello();
 // the same but
-const hello = () => console.log('hello');
+const hello = (name) => console.log(`Hello ${name}`);
 
-hello();
+hello('Vasya');
