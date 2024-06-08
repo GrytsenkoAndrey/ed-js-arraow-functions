@@ -12,6 +12,7 @@
 // }
 // hello();
 // the same but
-const hello = (name) => console.log(`Hello ${name}`);
+const hello = (name, age) => { console.log(`Hello ${name}`)
+                              console.log(`; you are ${age} years old`)};
 
-hello('Vasya');
+hello('Vasya', 10);
