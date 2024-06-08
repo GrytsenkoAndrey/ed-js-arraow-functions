@@ -12,7 +12,16 @@
 // }
 // hello();
 // the same but
-const hello = (name, age) => { console.log(`Hello ${name}`)
-                              console.log(`; you are ${age} years old`)};
+// const hello = (name, age) => { console.log(`Hello ${name}`)
+//                               console.log(`; you are ${age} years old`)};
 
-hello('Vasya', 10);
+// hello('Vasya', 10);
+
+
+//////////// example 2
+
+setTimeout(hello, 3000);
+
+function hello() {
+  console.log('hello');
+}
