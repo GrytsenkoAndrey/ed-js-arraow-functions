@@ -26,5 +26,3 @@ setTimeout(() => console.log('hello'), 3000);
 const numbers = [1, 2, 3, 4, 5];
 const squares = numbers.map((element) => Math.pow(element, 2));
 
-//////////// example 4
-
