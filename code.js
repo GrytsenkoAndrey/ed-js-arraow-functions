@@ -20,8 +20,8 @@
 
 //////////// example 2
 
-setTimeout(hello, 3000);
-
-function hello() {
+setTimeout(function () {
   console.log('hello');
-}
+}, 3000);
+
+
