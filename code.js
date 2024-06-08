@@ -20,8 +20,6 @@
 
 //////////// example 2
 
-setTimeout(function () {
-  console.log('hello');
-}, 3000);
+setTimeout(() => console.log('hello'), 3000);
 
 
